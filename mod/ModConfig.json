@@ -1,0 +1,44 @@
+{
+  "ModId": "gbfr.spark.granblue-fantasy-mods",
+  "ModName": "Granblue Fantasy Mods",
+  "ModAuthor": "spark",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Quest timers +60s (survive/defend quests excluded), thrown-object objectives replaced with \"Defeat 10 foes\", MSP +50%, EXP and rupies +20%, 9999 item cap, all fate episodes unlocked, quest grades 20% easier, captain not required in the story party, and crewmate cards for 1 Cobblestone in Treasure Trade. Every feature can be adjusted or turned off in Configure Mod. Applied in-archive at startup; the game installation is never modified.",
+  "ModDll": "gbfr.spark.granblue-fantasy-mods.dll",
+  "ModIcon": "",
+  "ModR2RManagedDll32": "",
+  "ModR2RManagedDll64": "",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "Tags": [
+    "GBFR",
+    "Quest",
+    "MSP",
+    "EXP",
+    "Items",
+    "Fate",
+    "QoL"
+  ],
+  "CanUnload": false,
+  "HasExports": false,
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "",
+  "IgnoreRegexes": [],
+  "IncludeRegexes": [
+    "ModConfig\\.json",
+    "quest-baseinfo-paths\\.txt",
+    "quest-fsm-paths\\.txt",
+    "story-fsm-paths\\.txt"
+  ],
+  "PluginData": {},
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "gbfrelink.utility.manager",
+    "reloaded.universal.redirector"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "granblue_fantasy_relink.exe"
+  ],
+  "ProjectUrl": "https://github.com/Spark-NV/Granblue-Fantasy-Mods"
+}

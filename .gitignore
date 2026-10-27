@@ -1,0 +1,8 @@
+bin/
+obj/
+package/
+dist/
+cache/
+*.user
+.vs/
+.vscode/
